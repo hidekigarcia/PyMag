@@ -90,7 +90,7 @@ def main():
         for i in range(0,len(Grid)):
             for j in range(0,len(Grid[i])):
                 output.write(str(Grid[i][j].latitude_degrees) + "," + str(Grid[i][j].longitude_degrees) + " " +  "\n")
-                #print(str(Grid[i][j].latitude_degrees) + "," + str(Grid[i][j].longitude_degrees) + " " + "\n")
+                print(str(Grid[i][j].latitude_degrees) + "," + str(Grid[i][j].longitude_degrees) + " " + "\n")
  
     PointsTogether = Grid[0] # the first array
     for i in range(1,len(Grid)):
